@@ -1,0 +1,11 @@
+Line 1 data
+line 2 data
+line 3 data
+line 4 data
+
+New data is added using nano editor
+
+it is similar to vi editor on linux but like gedit for windows
+
+modify 
+

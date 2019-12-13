@@ -1,0 +1,22 @@
+.a1{
+	background-color:black;
+	}
+.a2{
+	background-image:url("desert.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+}
+.a3{
+	border-style:outset;
+	border-width:20px;
+	border-color:yellow;
+	border-left:20px solid red;
+	border-right:20px solid green;
+	border-radius:10px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-top:200px;
+	margin-bottom:10px;
+	padding:10px;
+}

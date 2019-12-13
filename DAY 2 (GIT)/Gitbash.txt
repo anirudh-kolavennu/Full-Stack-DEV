@@ -1,0 +1,405 @@
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~
+$ git --version
+git version 2.24.0.windows.2
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~
+$ pwd
+/c/Users/anirudh kolavennu
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~
+$ ls
+ __pycache__/
+ 1.jpg
+'3D Objects'/
+ alert.ipynb
+ Alert.py
+ Anaconda3/
+ ansel/
+ AppData/
+'Application Data'@
+'case study plots.ipynb'
+'Cisco Packet Tracer 6.2sv'/
+ companies.txt
+'comprehensions #day3.ipynb'
+ Contacts/
+ Cookies@
+ cricket.ipynb
+ cust_dimen.csv
+ Desktop/
+ detection.ipynb
+ detection.py
+ detection2.py
+ Documents/
+ Downloads/
+'face detection.ipynb'
+ faces.xml
+ Favorites/
+ full_body.xml
+'Functions(class).ipynb'
+'GROUPING AND SUMMARISING DATAFRAMES.ipynb'
+ haarcascade_eye.xml
+ haarcascade_frontalface_default.xml
+ haarcascade_smile.xml
+'HANDLING MISSING  DATA.ipynb'
+ image_stitching.py
+ image_stitching_simple.py
+ IntelGraphicsProfiles/
+'LAMBDA FUNCTIONS, PIVOT TABLES(PANDAS).ipynb'
+ Links/
+'Lists (class).ipynb'
+'Local Settings'@
+ mapping.csv
+ market_fact.csv
+ MAT_PLOT_LIB.ipynb
+ melbourne.csv
+'MERGING AND CONCAT IN PANDAS.ipynb'
+ MicrosoftEdgeBackups/
+ Mini_Project.ipynb
+ Music/
+'My Documents'@
+ NetHood@
+ notebook.tex
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TM.blf
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{fd9a35db-49fe-11e9-aa2c-248a07783950}.TMContainer00000000000000000002.regtrans-ms
+ ntuser.ini
+ Numpy.ipynb
+'Old Firefox Data'/
+ OneDrive/
+ orders_dimen.csv
+'PANDAS INDEXING AND SELECTING.ipynb'
+'PANDAS(main work).ipynb'
+ Pictures/
+'POSITION, LABEL INDEXING(PANDAS).ipynb'
+ PrintHood@
+ prod_dimen.csv
+'project 1.ipynb'
+'Project Case Study.ipynb'
+ Recent@
+ Roaming/
+ rounds2.csv
+'Saved Games'/
+ SEABORN.ipynb
+ Searches/
+ SendTo@
+ shipping_dimen.csv
+'SLICING AND DICING ON DATA FRAMES.ipynb'
+'smile and eye detection.ipynb'
+ source/
+'Start Menu'@
+ Templates@
+ timeinput.ipynb
+ TimeInput.py
+ Untitled.ipynb
+ Untitled1.ipynb
+ Untitled2.ipynb
+ upper.xml
+'video capturing basics.ipynb'
+ Videos/
+'VirtualBox VMs'/
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~
+$ cd Desktop
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop
+$ cd DOCS
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/DOCS
+$ cd HTML
+bash: cd: HTML: No such file or directory
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/DOCS
+$ cd Desktop
+bash: cd: Desktop: No such file or directory
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/DOCS
+$ ls--
+bash: ls--: command not found
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/DOCS
+$ --ls
+bash: --ls: command not found
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/DOCS
+$ cd..
+bash: cd..: command not found
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/DOCS
+$ cd ..
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop
+$ cd Coding Projects
+bash: cd: too many arguments
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop
+$ cd CodingProjects
+bash: cd: CodingProjects: No such file or directory
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop
+$ mkdir temp
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop
+$ cd temp
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ touch Data.txt
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ ls
+Data.txt
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ echo "Line 1 data" > Data.txt
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ cat Data.txt
+Line 1 data
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ echo "line 2 data" >> Data.txt
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ cat Data.txt
+Line 1 data
+line 2 data
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ nano Data.txt
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ cat Data.txt
+Line 1 data
+line 2 data
+line 3 data
+line 4 data
+
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ nano Data.txt
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ cat Data.txt
+Line 1 data
+line 2 data
+line 3 data
+line 4 data
+
+New data is added using nano editor
+
+it is similar to vi editor on linux but like gedit for windows
+
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ cd ..
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop
+$ mkdir temp
+mkdir: cannot create directory ‘temp’: File exists
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop
+$ cd temp
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ mkdir Git
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ ls
+Data.txt  Git/
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ git init
+Initialized empty Git repository in C:/Users/anirudh kolavennu/Desktop/temp/.git/
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ ls
+Data.txt  Git/
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ ls -1
+Data.txt
+Git/
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ li -a
+bash: li: command not found
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ ls -a
+./  ../  .git/  Data.txt  Git/
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Data.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git add Data.txt
+warning: LF will be replaced by CRLF in Data.txt.
+The file will have its original line endings in your working directory
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   Data.txt
+
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git commit -m "First commit Done"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'anirudh kolavennu@LAPTOP-PPI40F16.(none)')
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git config --global user.email "ksvanirudh1998@gmail.com"
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git config --global user.name "anirudh-kolavennu"
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git commit -m "First commit Done"
+[master (root-commit) b93e672] First commit Done
+ 1 file changed, 9 insertions(+)
+ create mode 100644 Data.txt
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git status
+fatal: Unable to read current working directory: No such file or directory
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git config user.email
+ksvanirudh1998@gmail.com
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git config user.name
+anirudh-kolavennu
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ nano Data.txt
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Data.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git add Data.txt
+warning: LF will be replaced by CRLF in Data.txt.
+The file will have its original line endings in your working directory
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Data.txt
+
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git commit -m "second commit"
+[master aabfbcd] second commit
+ 1 file changed, 2 insertions(+)
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git log
+commit aabfbcd8f44e4eae34f8f0012768d5b765debbab (HEAD -> master)
+Author: anirudh-kolavennu <ksvanirudh1998@gmail.com>
+Date:   Tue Dec 10 15:13:32 2019 +0530
+
+    second commit
+
+commit b93e67206b807b1de88c7001c70b6a9a56712518
+Author: anirudh-kolavennu <ksvanirudh1998@gmail.com>
+Date:   Tue Dec 10 14:56:36 2019 +0530
+
+    First commit Done
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ mkdir test-FSD
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ ls
+Data.txt  Git/  test-FSD/
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git remote --help
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git remote -help
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git remote add test-FSD https://github.com/anirudh-kolavennu/test-FSD
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git remote show
+test-FSD
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git remote -v
+test-FSD        https://github.com/anirudh-kolavennu/test-FSD (fetch)
+test-FSD        https://github.com/anirudh-kolavennu/test-FSD (push)
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ git pull test-FSD master
+fatal: unable to access 'https://github.com/anirudh-kolavennu/test-FSD/': Failed to connect to github.com port 443: Timed out
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$ ^C
+
+anirudh kolavennu@LAPTOP-PPI40F16 MINGW64 ~/Desktop/temp (master)
+$

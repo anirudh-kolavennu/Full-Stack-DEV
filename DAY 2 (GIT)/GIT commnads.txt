@@ -1,0 +1,72 @@
+Basic Linux commands first:
+
+1. Pwd : present directory
+
+2. ls : list of contents
+	ls -a : hidden files
+
+3. Cd name : change directory to named
+	cd .. : go back one step
+	
+4. mkdir name : create a directory with name
+
+5. touch , echo , gedit , nano , cat : to work with file systems in Linux
+	Touch : only to create a file of any type.. Syntax: touch file.format
+
+	echo :  we can write data(small amounts) into given file using echo 	        command.. Syntax: echo "data" > filename.extension
+		-> if data already there, it will replace
+		-> to prevent replace, we use echo "data" >> File.extension
+
+	cat :   only for reading.. Syntax: cat Filename.extension
+
+	nano :  read and write especially for multi line data.. 
+		Syntax: nano file.extension -> this will open an editor by 				default to add data, then press ctrl+x after adding data, now 				press y for saving, then press enter to confirm file name.
+
+	gedit : read and write using G editor 
+		-> wont work on windows system
+
+GIT Commands:
+
+1. for exisiting projects :
+	git clone  <remote url>
+
+2. for new projects:
+	git init:
+		This will create a new and empty repository and changes will	 		automatically be reflected in the file
+
+3. GIT file status:
+	Untracked : file not yet in version control
+
+	tracked   : files under version control
+
+	Unmodified : in version control but not modified
+
+	modified   : in version control and modified
+   -> to find the file status, use command git status
+
+4. to convert a file to tracked, ie move from local dir to staging area 
+	command : git add filename.extension
+
+5. to commit all the pending changes after adding the file to staging area,
+	command : git commit -m "message"
+
+6. to assign/config with the github id:
+	commit --global user.email "mail id"
+	commit --global user.name "username"
+
+7. After making changes to added files in tracked, make sure to commit
+
+8. Then after commit, use git log to get all logs
+
+9. now,to sync the files, first create a repository in github and create that dir    using mkdir in the current working dir
+
+10. now use git  remote add repository_name "repository url"
+
+11. to check the status, use git remote show
+
+12. Pull:
+    git pull repository master
+    push:
+    git push -u repository-name {from server to local machine}
+    git push -f --set-upstream repository master {to server}
+

@@ -1,0 +1,44 @@
+CSS properties:
+
+-> preferably use class selector
+-> make sure that external slector link tag is not placed in style tag but in    head tag
+
+1. background-color : color code/name [can be used with any selector or element]
+
+2. background-image : url(filename)
+
+3. background-repeat:no-repeat, x repeat, y repeat etc
+
+4. background-position : right center, top left, bottom right, center etc
+
+5. background-attachment : 
+			  fixed : wont move with scroll, specifically for 				  background image
+			  scroll : moves with scroll 
+
+6. border-style : 
+		solid : solid color/dark line
+		dotted : dotted line border
+		dashed : dash instead of dots
+		double : double line border
+		inset : borders coming in
+		outset : borders pointing out
+
+7. border-width : to select the width for the border
+		-> can be px (pixels)
+
+8. border-color : can be either color code or name
+
+9. border-left and border-right : can change the color and size of left and right bounds of border
+		border-left : 5px solid/dotted/inset/outset color;
+
+10. border-radius: gives curved edges to the border
+		-> use it with border-left and border-right for curved borders 		                   with different colors
+
+11. Margin Properties:
+	i.   margin-left : brings the text to the right
+	ii.  margin-right: brings text to the left
+	iii. margin-top  : brings texxt down
+	iv.  margin-bottom: brings text up
+	v. only margin : pixels apply the same to all the sides.
+
+12. Padding : the space between the text and the border can also have 	      top,bottom,left,right.

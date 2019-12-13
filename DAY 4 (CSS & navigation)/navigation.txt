@@ -1,0 +1,8 @@
+NAvigation bar:
+
+Side navigation:
+	->we use ul and li
+	->by default we get dots as pointers
+	-> to remove we use list-style-type:none;
+	->to enforce a particular css over inline css, use !important
+	->
