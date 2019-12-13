@@ -1,0 +1,26 @@
+.a1{
+	border-width:10px;
+	background-color: tan;
+}
+.a2{
+	background-color:black;
+}
+.a3
+{
+	border-style:solid;
+	border-width:5px;
+	border-color:black;
+	padding-right:10px;
+	padding-top:5px;
+	
+}
+.a4
+{
+	padding-left:950px;
+	padding-right:10px;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+
