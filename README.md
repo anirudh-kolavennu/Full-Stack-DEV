@@ -1,1 +1,1 @@
-#FSD Program at GITAM University, Hyderabad.
+FSD Program at GITAM University, Hyderabad.
