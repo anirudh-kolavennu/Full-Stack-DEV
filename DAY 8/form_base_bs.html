@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </link>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container" >
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                <th colspan="2" style="text-align:center"> Registration Form</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        Username:
+                    </td>
+                    <td>
+                        <input id="usrname" type="text" placeholder="enter username" required pattern="^[A-Z]{1}[a-z]{1,4}[0-9]{1}$"/>
+                    </td>
+                </tr>
+                <tr>
+                        <td>
+                            password:
+                        </td>
+                        <td>
+                            <input id="pwd" type="password"/>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            Email ID:
+                        </td>
+                        <td>
+                            <input id="email" type="email" placeholder="enter mail"/>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            Mobile Number:
+                        </td>
+                        <td>
+                            <input id="mnum" type="text" placeholder="enter phone no"/>
+                        </td>
+                </tr>
+                <tr>
+                        <td>
+                            Address:
+                        </td>
+                        <td>
+                            <textarea id="address" type="text"></textarea>
+                        </td>
+                </tr>
+                <tr>
+                    <td style="text-align:right">
+                        <input id="submit" type="button" value="submit"/>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>

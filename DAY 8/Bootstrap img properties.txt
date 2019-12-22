@@ -1,0 +1,37 @@
+-> img-src followed by  class="rounded-circle" (will give circular logos)
+			class="rounded" (image with rounded edges)
+
+INPUT TAGS:
+
+* always give id to any input tag as it makes it easier for validation using javascript. 
+
+-> input type=" " 
+	1. text
+	2. button
+	3. range
+	4. checkbox
+	5. radio
+	6. mail
+	7. password
+
+-> <textarea> tag for resizable text box
+
+-> <select> 
+	<option> .. </option> {for drop down menu}
+   </select> 
+
+TO VALIDATE A FORM WE NEED TO FORM PATTERNS :
+	-> this can be done using REGULAR EXPRESSION
+	-> NOTATIONS:
+		* [0-9] : one digit b/w 0-9
+		* [0-9][0-9] : two digits
+		* ^ RE $ : denote a regular expression
+		* {} : curly braces for repeatations ex: ^[0-9]{4}$ is 4 repeats.
+		* [a-z] : matching of lower case charecters
+		* [A-Z] : matching of upper case charecters
+		* [a-z A-z] : both cap and small are valid as first char
+		* {x,y} : any number of char valid from x to y range where x can be zero
+		* [a-z A-Z special charecters] are also valid
+		* [A-Z]{1}[a-z 0-9 _]{1,14} usual username
+		* 
+		
